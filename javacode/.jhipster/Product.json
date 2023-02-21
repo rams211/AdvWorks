@@ -1,0 +1,23 @@
+{
+  "name": "Product",
+  "fields": [
+    {
+      "fieldName": "productid",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "product",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["Advworks"],
+  "microserviceName": "Advworks",
+  "clientRootFolder": "Advworks",
+  "databaseType": "sql",
+  "changelogDate": "20230218190520"
+}
