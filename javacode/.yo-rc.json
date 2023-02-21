@@ -1,0 +1,29 @@
+application {
+  config {
+    baseName Advworks
+    packageName com.ezapi.api
+    enableTranslation false
+    languages []
+	applicationType microservice
+	authenticationType jwt
+	databaseType sql
+	prodDatabaseType mssql
+	devDatabaseType mssql
+	skipClient true
+	testFrameworks []
+	serviceDiscoveryType no
+	serverPort 8081
+	reactive false
+	buildTool maven
+  }  
+  entities *
+}
+
+entity Product(Product){
+	Productid String
+}
+
+
+service all with serviceImpl
+
+dto * with mapstruct
